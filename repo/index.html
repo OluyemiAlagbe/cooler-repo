@@ -1,76 +1,67 @@
-<index>
-    <addon id="plugin.video.iptv" version="1.0.0" name="IPTV MultiSource">
-        <info compressed="false">https://coolitis.github.io/cooler-repo/addons/plugin.video.iptv/addon.xml</info>
-        <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/plugin.video.iptv/</datadir>
-    </addon>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cooler Kodi Repository</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; background: #f4f4f4; color: #333; }
+    h1, h2 { color: #2c3e50; }
+    code { background: #eee; padding: 2px 6px; border-radius: 4px; }
+    table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+    th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+    th { background: #3498db; color: white; }
+    .container { max-width: 900px; margin: auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    .badge { padding: 4px 8px; border-radius: 4px; font-size: 0.8em; }
+    .free { background: #27ae60; color: white; }
+    .paid { background: #e74c3c; color: white; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🎬 Cooler Kodi Repository</h1>
+    <p>Welcome! This repo has IPTV, streaming, and free movie addons for Kodi.</p>
 
-    <addon id="plugin.video.dstv.now" version="1.0.0" name="DStv Now">
-        <info compressed="false">https://coolitis.github.io/cooler-repo/addons/plugin.video.dstv.now/addon.xml</info>
-        <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/plugin.video.dstv.now/</datadir>
-    </addon>
+    <h2>📦 Included Addons</h2>
+    <table>
+      <tr>
+        <th>Addon</th>
+        <th>Description</th>
+        <th>Subscription</th>
+      </tr>
+      <tr><td>IPTV MultiSource</td><td>Multi .m3u + EPG</td><td><span class="badge free">Free</span></td></tr>
+      <tr><td>DStv Now</td><td>South Africa streaming</td><td><span class="badge paid">Paid</span></td></tr>
+      <tr><td>Samsung TV Plus</td><td>Free live channels</td><td><span class="badge free">Free</span></td></tr>
+      <tr><td>PBS Live</td><td>Public TV</td><td><span class="badge free">Free</span></td></tr>
+      <tr><td>Netflix</td><td>Official DRM addon</td><td><span class="badge paid">Paid</span></td></tr>
+      <tr><td>YouTube</td><td>Official YouTube</td><td><span class="badge free">Free</span></td></tr>
+      <tr><td>Plex</td><td>Your media server</td><td><span class="badge free">Free</span></td></tr>
+      <tr><td>Pluto TV</td><td>250+ free channels</td><td><span class="badge free">Free</span></td></tr>
+      <tr><td>Crackle</td><td>Free movies</td><td><span class="badge free">Free</span></td></tr>
+      <tr><td>Tubi</td><td>Free movies & shows</td><td><span class="badge free">Free</span></td></tr>
+      <tr><td>Popcornflix</td><td>Free on-demand</td><td><span class="badge free">Free</span></td></tr>
+      <tr><td>Internet Archive</td><td>Public domain films</td><td><span class="badge free">Free</span></td></tr>
+    </table>
 
-    <addon id="plugin.video.samsungtvplus" version="1.0.0" name="Samsung TV Plus">
-        <info compressed="false">https://coolitis.github.io/cooler-repo/addons/plugin.video.samsungtvplus/addon.xml</info>
-        <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/plugin.video.samsungtvplus/</datadir>
-    </addon>
+    <h3>Dependencies</h3>
+    <ul>
+      <li><strong>SlyGuy Module</strong> – For DStv, Samsung, PBS</li>
+      <li><strong>InputStream Helper</strong> – For Netflix DRM</li>
+    </ul>
 
-    <addon id="plugin.video.pbslive" version="1.0.0" name="PBS Live">
-        <info compressed="false">https://coolitis.github.io/cooler-repo/addons/plugin.video.pbslive/addon.xml</info>
-        <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/plugin.video.pbslive/</datadir>
-    </addon>
+    <h2>🌐 Install in Kodi</h2>
+    <ol>
+      <li>Settings → File Manager → Add Source</li>
+      <li>Enter: <code>https://coolitis.github.io/cooler-repo/</code></li>
+      <li>Name: <code>Cooler Repo</code></li>
+      <li>Add-ons → Install from ZIP → <code>Cooler Repo</code> → <code>repository.cooler-repo.zip</code></li>
+      <li>Install from repository → <strong>Cooler Repo</strong> → Pick any addon</li>
+    </ol>
 
-    <addon id="plugin.video.netflix" version="1.0.0" name="Netflix">
-        <info compressed="false">https://coolitis.github.io/cooler-repo/addons/plugin.video.netflix/addon.xml</info>
-        <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/plugin.video.netflix/</datadir>
-    </addon>
+    <p><strong>Tip:</strong> Some addons need login. Free ones work instantly.</p>
 
-    <addon id="plugin.video.youtube" version="1.0.0" name="YouTube">
-        <info compressed="false">https://coolitis.github.io/cooler-repo/addons/plugin.video.youtube/addon.xml</info>
-        <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/plugin.video.youtube/</datadir>
-    </addon>
-
-    <addon id="plugin.video.plex" version="1.0.0" name="Plex">
-        <info compressed="false">https://coolitis.github.io/cooler-repo/addons/plugin.video.plex/addon.xml</info>
-        <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/plugin.video.plex/</datadir>
-    </addon>
-
-    <addon id="plugin.video.pluto" version="1.0.0" name="Pluto TV">
-        <info compressed="false">https://coolitis.github.io/cooler-repo/addons/plugin.video.pluto/addon.xml</info>
-        <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/plugin.video.pluto/</datadir>
-    </addon>
-
-    <addon id="plugin.video.crackle" version="1.0.0" name="Crackle Movies">
-        <info compressed="false">https://coolitis.github.io/cooler-repo/addons/plugin.video.crackle/addon.xml</info>
-        <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/plugin.video.crackle/</datadir>
-    </addon>
-
-    <addon id="plugin.video.tubi" version="1.0.0" name="Tubi Movies">
-        <info compressed="false">https://coolitis.github.io/cooler-repo/addons/plugin.video.tubi/addon.xml</info>
-        <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/plugin.video.tubi/</datadir>
-    </addon>
-
-    <addon id="plugin.video.popcornflix" version="1.0.0" name="Popcornflix">
-        <info compressed="false">https://coolitis.github.io/cooler-repo/addons/plugin.video.popcornflix/addon.xml</info>
-        <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/plugin.video.popcornflix/</datadir>
-    </addon>
-
-    <addon id="plugin.video.internetarchive" version="1.0.0" name="Internet Archive Movies">
-        <info compressed="false">https://coolitis.github.io/cooler-repo/addons/plugin.video.internetarchive/addon.xml</info>
-        <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/plugin.video.internetarchive/</datadir>
-    </addon>
-
-    <addon id="script.module.slyguy" version="1.0.0" name="SlyGuy Shared Module">
-        <info compressed="false">https://coolitis.github.io/cooler-repo/addons/script.module.slyguy/addon.xml</info>
-        <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/script.module.slyguy/</datadir>
-    </addon>
-
-    <addon id="slyguy.dependencies" version="1.0.0" name="SlyGuy Dependencies">
-        <info compressed="false">https://coolitis.github.io/cooler-repo/addons/slyguy.dependencies/addon.xml</info>
-        <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/slyguy.dependencies/</datadir>
-    </addon>
-
-    <addon id="script.module.inputstreamhelper" version="0.5.0" name="InputStream Helper">
-        <info compressed="false">https://coolitis.github.io/cooler-repo/addons/script.module.inputstreamhelper/addon.xml</info>
-        <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/script.module.inputstreamhelper/</datadir>
-    </addon>
-</index>
+    <h2>📣 Support</h2>
+    <p>GitHub: <a href="https://github.com/coolitis/cooler-repo" target="_blank">coolitis/cooler-repo</a></p>
+  </div>
+</body>
+</html>
