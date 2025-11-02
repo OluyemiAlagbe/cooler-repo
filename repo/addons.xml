@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 
+  
   <!-- ==================== IPTV ADDON ==================== -->
   <addon id="plugin.video.iptv" version="1.0.0" name="IPTV MultiSource" provider-name="coolitis">
     <requires>
