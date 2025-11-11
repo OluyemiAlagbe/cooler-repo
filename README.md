@@ -46,7 +46,7 @@ https://coolitis.github.io/cooler-repo/
 ## 🔗 Direct Repository URL
 
 - GitHub Pages link: [https://coolitis.github.io/cooler-repo/](https://coolitis.github.io/cooler-repo/)  
-- Direct zip download: [https://coolitis.github.io/cooler-repo/repository.cooler-repo.zip](https://coolitis.github.io/cooler-repo/repository.cooler-repo.zip)
+- Direct zip download: $$\text{[https://coolitis.github.io/cooler-repo/addons/repository.myrepo-1.0.0.zip](https://coolitis.github.io/cooler-repo/addons/repository.myrepo-1.0.0.zip)}$$
 
 ---
 
